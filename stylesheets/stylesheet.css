@@ -1,4 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Pacifico);
+/*@import url(http://fonts.googleapis.com/css?family=Pacifico);*/
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+
 * {
   box-sizing: border-box; }
 
@@ -66,7 +68,7 @@ a {
 }
 
 #web-title {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Kaushan Script', cursive;
   font-size: 3em;
   margin: 0.67em 0;
   color: white;
