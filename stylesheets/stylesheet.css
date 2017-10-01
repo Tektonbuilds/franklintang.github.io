@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
 * {
   box-sizing: border-box; }
 
@@ -54,10 +55,35 @@ a {
       margin-left: 0; } }
 
 .page-header {
-  color: #fff;
+  background-image: url("../image-res/ocean_seal_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  height: 600px;
+  /*background-color: #159957;*/
+  /*background-image: linear-gradient(120deg, #155799, #159957); */
+}
+
+#web-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
+  margin: 0.67em 0;
+  color: white;
+}
+
+.portrait {
+  background-image: url("../image-res/kick_profile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 50%;
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
