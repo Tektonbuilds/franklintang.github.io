@@ -74,6 +74,11 @@ a {
   color: white;
 }
 
+#contact-table {
+  border-radius: 5px;
+  margin: auto;
+}
+
 .portrait {
   background-image: url("../image-res/kick_profile.jpg");
   background-size: cover;
