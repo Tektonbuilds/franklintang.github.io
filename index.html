@@ -12,10 +12,6 @@
             href="stylesheets/stylesheet.css"
             type="text/css"
             media="screen">
-      <link rel="stylesheet"
-            href="stylesheets/github-light.css"
-            type="text/css"
-            media="screen">
       <link rel='stylesheet'
             href='https://fonts.googleapis.com/css?family=Kaushan+Script:400,700'
             type='text/css'>
@@ -25,6 +21,8 @@
             crossorigin="anonymous">
       <link rel="stylesheet"
             href="css/animate.css">
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 
       <style>
           #header-content{
@@ -37,7 +35,7 @@
   <body>
     <section class="page-header">
         <section id="header-content">
-            <section class="animated fadeInDownBig">
+            <section class="animated">
                 <div id="web-title">I'm Franklin</div>
                 <div class="portrait">
                 </div>
@@ -50,9 +48,11 @@
     </section>
 
     <section class="main-content">
-      <h3>
-          About Me
-      </h3>
+        <section class="text-center">
+            <h3>
+                Who am I?
+            </h3>
+        </section>
 
         <p>
             I am a passionate builder and
@@ -107,6 +107,10 @@
 
     </section>
 
-  
+    <script>
+        $(document).ready($(function () {
+            $('#header-content').addClass("fadeInDownBig");
+        }));
+    </script>
   </body>
 </html>
