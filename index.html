@@ -39,11 +39,13 @@
     <section class="page-header">
         <section id="header-content">
             <section class="animated">
-                <div class="inner">
-                    <div id="web-title">I'm Franklin</div>
-                    <div class="portrait">
+                <div class="middle">
+                    <div class="inner">
+                        <div class="web-title">I'm Franklin</div>
+                        <div class="portrait">
+                        </div>
+                        <h2 class="project-tagline">No, not the turtle.</h2>
                     </div>
-                    <h2 class="project-tagline">No, not the turtle.</h2>
                 </div>
             </section>
         </section>
@@ -121,7 +123,7 @@
 
     <script>
         $(document).ready($(function () {
-//            $('#header-content').style.visibility = 'visible';
+            $(this).scrollTop(0);
             $('#header-content').addClass("fadeInDownBig");
         }));
     </script>
