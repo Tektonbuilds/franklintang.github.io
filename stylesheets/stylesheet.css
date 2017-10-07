@@ -5,8 +5,10 @@
   box-sizing: border-box; }
 
 html, body {
+    /*force stop horizontal scrolling*/
     max-width: 100%;
     overflow-x: hidden;
+    /*-------------------------------*/
     padding: 0;
     margin: 0;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -273,6 +275,7 @@ a {
     }
 }
 
+/*For mobile screens*/
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
     padding: 2rem 4rem;
@@ -281,7 +284,7 @@ a {
 
     .contact-image {
         max-width: 50%;
-        max-height: 50%;
+        padding: 15% 10%;
     }
 }
 
@@ -293,8 +296,8 @@ a {
 
 
     .contact-image {
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 50%;
+        padding: 15% 10%;
     }
 }
 
