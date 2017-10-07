@@ -18,25 +18,6 @@ a {
   a:hover {
     text-decoration: underline; }
 
-.btn {
-  display: inline-block;
-  margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 0.3rem;
-  transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
-  .btn + .btn {
-    margin-left: 1rem; }
-
-.btn:hover {
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3); }
-
 @media screen and (min-width: 64em) {
   .btn {
     padding: 0.75rem 1rem; } }
@@ -78,16 +59,19 @@ a {
 }
 
 .web-title {
-  font-family: 'Kaushan Script', SansSerif;
+  font-family: 'Kaushan Script', Garamond;
   font-size: 5em;
   margin: 2%;
   color: white;
 }
 
-#contact-table {
+.contact-table {
   /*border-radius: 5px;*/
-  border: 60px;
   /*margin: auto;*/
+}
+
+.contact-image {
+    padding: 10px;
 }
 
 .portrait {
@@ -293,11 +277,12 @@ a {
 
 
     .contact-image {
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 50%;
+        max-height: 50%;
     }
 }
 
+/*For mobile screens*/
 @media screen and (max-width: 42em) {
   .main-content {
     padding: 2rem 1rem;
@@ -305,8 +290,8 @@ a {
 
 
     .contact-image {
-        max-width: 50%;
-        max-height: 50%;
+        max-width: 100%;
+        max-height: 100%;
     }
 }
 
