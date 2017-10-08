@@ -71,8 +71,9 @@ a {
 }
 
 .contact-table {
+    /*margin-left: 20px;*/
   /*border-radius: 5px;*/
-  /*margin: auto;*/
+    margin: auto;
 }
 
 .contact-image {
@@ -297,7 +298,7 @@ a {
 
     .contact-image {
         max-width: 100%;
-        padding: 15% 10%;
+        padding: 18% 10%;
     }
 }
 
